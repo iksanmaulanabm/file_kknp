@@ -1,25 +1,74 @@
 
 
-.cards{
+.card1{
     font-family: 'nunito';
     display: flex;
     flex-direction: row;
+    padding: 20px;
 }
 
 
 .jmlMasalah{
     /* background-color: red; */
-    width: 300px;
+    width: 250px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 250px;
+    transition: all 300ms ease;
+}
+.jmlMasalah a{
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: lighter;
+    color: #007eaf;
 }
 
 .ketJmlMasalah{
     /* background-color: green; */
+    display: flex;
+    flex-direction: row;
     width: 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.ketJmlMasalah h2{
+    margin: 0px;
+    font-size: 25px;
+    color: #007eaf;
+}
+#tglToday{
+    margin: 0px;
+    font-size: 18px;
+    color: #191919;
+}
+.ketJmlMasalah p{
+    margin: 0px;
+    height: 1px;
+}
+.ketJmlMasalah button{
+    background-color: #007eaf;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    align-self: flex-end;
+    transition: all 300ms ease;
+}
+.ketJmlMasalah button:hover{
+    cursor: pointer;
+    background-color: #006188;
+    transition: all 300ms ease;
+}
+.ketJmlMasalah button:active{
+    cursor: pointer;
+    background-color: #0092cc;
+    box-shadow: 0px 0px 10px 1px #008cffa0;
+    transition: all 300ms ease;
 }
 
 .lingkaranToday {
@@ -27,12 +76,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     /* background-color: #eaeaea; */
     background: linear-gradient(-45deg,#00b7ff,#007eaf);
-    box-shadow: 0px 0px 20px 1px #008cff;
+    box-shadow: 0px 0px 10px 1px #008cffa0;
     
 }
 .lingkaranToday::after{

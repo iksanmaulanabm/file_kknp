@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 650px;
+    background-color: #e4e4e4;
   }
   
 
@@ -97,13 +98,15 @@ body {
     flex-direction: column;
     width: 100%;
     align-content: center;
+    gap: 1em;
+    margin-top: -20px;
 }
 .konten1{
     width: 100%;
     height: 60%;
     display: flex;
     flex-direction: row;
-    gap: 3em;
+    gap: 1em;
     justify-content: center;
     align-items: center;
 
@@ -112,11 +115,14 @@ body {
     width: 500px;
     height: 80%;
     background-color: white;
-    /* box-shadow: 2px 2px 5px 0px rgb(220, 220, 220); */
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 5px 0px rgb(220, 220, 220); */
+    box-shadow: 1px 0px 10px 1px #19191920;
+    overflow: hidden;
 }
 #myChart{
     background-color: #00b7ff;
@@ -129,16 +135,19 @@ body {
     align-items: center;
     width: 100%;
     height: 40%;
+    border-radius: 10px;
+    margin-top: -30px;
 }
 .laporanMingguan{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
-    height: 80%;
+    width: 96%;
+    height: 100%;
     background-color: white;
-    box-shadow: 2px 2px 5px 0px rgb(220, 220, 220);
+    box-shadow: 1px 0px 10px 1px #19191920;
     gap: 10px;
+    border-radius: 10px;
 }
 .hari{
     width: 115px;
