@@ -1,0 +1,175 @@
+
+/* Responsive css */
+
+@media only screen and (max-width: 950px){
+    body{
+        margin:0 auto;
+    }
+    .nav-menu-tugas{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-right: 10px;
+    }
+    .banner{
+        height: 800px;
+        background-color: #d1ecff;
+    }
+    .banner-hero{
+        margin: auto;
+        margin-top: 20px;
+        width: 280px;
+        height: 500px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-super-text{
+        font-family: nunito_black;
+        width: 290px;
+        text-align: left;
+        margin: auto;
+        margin: 0px 20px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .banner-super-text h1{
+        margin: auto;
+    }
+    .enginer-text{
+        font-size: 30px;
+        color:  #00848d;
+    }
+    .ball{
+        width: 100px;
+        margin-top: 155px;
+        margin-left: -100px;
+    }
+    .ball-1{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #00b7ff;
+    }
+    .ball-2{    
+        margin-top: -7px;
+        margin-left: 257px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #00ffff;
+    }
+    
+    .garis-batas{
+        display: none;
+    }
+    .tombol-banner{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .tombol-banner input{
+        margin: 10px 10px;
+        padding-left: 10px;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        outline: 1px solid #b1b1b1;
+    }
+    .tombol-banner input:focus{
+        outline: 1px solid #00848d;
+        box-shadow: 0px 0px 3px 3px #d1ecff;
+    }
+    .tombol-banner a{
+        text-align: center;
+        text-decoration: none;
+        font-family: nunito;
+    }
+    .lupa-sandi{
+        text-decoration: none;
+        font-family: nunito_light;
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #00b7ff;
+        font-size: 14px;
+    }
+    .lupa-sandi:hover{
+        color: #007eaf;
+    }
+    .login-btn{
+        font-size: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        /* outline: 1px solid black; */
+        background-color: #00b7ff;
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        padding-top: 5px;
+    }
+    .login-btn:hover{
+        background-color: #0090c9;
+    }
+    .login-btn:active{
+        background-color: #00b7ff;
+        box-shadow: 0px 0px 3px 3px #d1ecff;
+        color: white;
+    }
+    .register-btn{
+        font-size: 20px;
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #00ff95;
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        padding-top: 5px;
+    }
+    .register-btn:hover{
+        background-color: #00be6f;
+    }
+    .register-btn:active{
+        background-color: #00ff95;
+        box-shadow: 0px 0px 3px 3px #d1ecff;
+        color: white;
+    }
+    
+    
+    .text-1{
+        margin-top: -250px;
+        font-family: nunito;
+    }
+    .link-tugas div{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .link-tugas div a{
+        margin: 10px;
+        text-decoration: none;
+        color: #646464;
+        font-family: nunito_light;
+    }
+    .teknik{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .teknik hr{
+        border: none;
+        background-color: #646464;
+        width: 300px;
+        height: 1px;
+    }
+    .teknik p{
+        color: #646464;
+        margin:0 auto;
+        margin-top: 10px;
+        font-family: nunito_light;
+    }
+    
+}

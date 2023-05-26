@@ -1,0 +1,75 @@
+/* warna latar */
+.bg-dark{
+    background-color: #23232A;
+}
+.bg-darkShadow{
+    box-shadow: 0px 3px 7px .5px #5a5961;
+}
+.bg-darkCyan{
+    background-color: #1a80b3;
+}
+.bg-darkCyanShadow{
+    box-shadow: 0px 3px 3px 3px #1a80b3;
+}
+
+.bg-whitesmoke{
+  background-color: whitesmoke;
+}
+
+.bg-light-1{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, #ffffff 70%, #c8e2ff 100%);
+    /* background: linear-gradient(180deg, #ffffff 70%, #c8f1ff 100%); */
+    /* background: linear-gradient(0deg, #70b7ff 0%, #ffffff 100%); */
+}
+.bg-light-1 a{
+    color: #1a1a1a;
+}
+
+.bg-shadow-cyan{
+    box-shadow: 0px 10px 30px -10px #289eff96;
+}
+/* 46cdcf */
+.bg-royal{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(135deg, rgba(71,70,109,1) 0%, #3d84a7 100%);
+}
+/* warna latar */
+
+
+.grey-1{
+    color: grey;
+}
+.biru-2{
+    color: #126FBC;
+}
+
+.warna-twitter{
+    color: #126FBC;
+}
+.warna-youtube{
+    color: red;
+}
+.warna-instagram{
+    color: orangered;
+}
+.warna-facebook{
+    color: #258bdf;
+}
+
+.color-dark-1{
+    color: #111111 !important;
+}
+.color-dark-2{
+    color: #1d1d1d !important;
+}
+.color-dark-3{
+    color: #1a1a1a !important;
+}
+
+.color-light-1{
+    color: #ffffff !important;
+}
+.color-light-2{
+    color: #f1f1f1 !important;
+}

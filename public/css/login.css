@@ -1,0 +1,189 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+.banner-section {
+    text-align: center;
+}
+
+.banner {
+    height: 800px;
+    background-color: #d1ecff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.banner-hero {
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 1px rgb(209, 209, 209);
+}
+
+.banner-super-text {
+    font-family: 'Nunito Black', sans-serif;
+    width: 200px;
+    text-align: left;
+    margin: 100px 50px;
+    font-size: 30px;
+}
+
+.enginer-text {
+    font-size: 60px;
+    color: #00848d;
+}
+
+.garis-batas {
+    border: none;
+    background-color: #b1b1b1;
+    width: 1px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.tombol-banner {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+}
+.tombol-banner div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 60px;
+    /* outline: 1px solid #b1b1b1; */
+    background-color: #b1b1b150;
+    padding: 0px 10px;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+.tombol-banner div i{
+    margin: 10px 10px;
+    padding-right: 8px;
+    scale: 1.5;
+    border-right: 1px solid #191919;
+}
+.tombol-banner input {
+    background-color: transparent;
+    padding-left: 10px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    /* outline: 1px solid #b1b1b1; */
+}
+.tombol-banner :focus-within{
+    outline: 1px solid #007eaf;
+    background-color: #00ffff20;
+    box-shadow: 2px 2px 5px 0px rgb(220, 220, 220);
+    transition: background-color 0.6s, box-shadow 0.3s; /* Menambahkan transisi perubahan warna latar belakang dan bayangan (box shadow) */
+}
+.tombol-banner :focus-within i{
+    color: #007eaf;
+    border-right: 1px solid #007eaf;
+}
+.tombol-banner input:focus {
+    /* color: #007eaf; */
+    transform: translateX(0%);
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #191919;
+}
+.tombol-banner a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.lupa-sandi {
+    text-decoration: none;
+    font-family: 'Nunito Light', sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #00b7ff;
+    font-size: 14px;
+}
+
+.lupa-sandi:hover {
+    color: #007eaf;
+}
+
+.login-btn {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #00b7ff;
+    width: 330px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #0090c9;
+}
+
+.login-btn:active {
+    background-color: #00b7ff;
+    box-shadow: 0px 0px 3px 3px #d1ecff;
+    color: white;
+}
+
+
+.slogan {
+    margin-top: -300px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.links {
+    margin-top: 150px;
+}
+.links div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links div a {
+    margin: 10px;
+    text-decoration: none;
+    color: #646464;
+    font-family: 'Nunito Light', sans-serif;
+}
+
+.teknik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.teknik hr {
+    border: none;
+    background-color: #646464;
+    width: 300px;
+    height: 1px;
+}
+
+.teknik p {
+    color: #646464;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Nunito Light', sans-serif;
+}
+  

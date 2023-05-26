@@ -1,0 +1,53 @@
+
+
+.cards{
+    font-family: 'nunito';
+    display: flex;
+    flex-direction: row;
+}
+
+
+.jmlMasalah{
+    /* background-color: red; */
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.ketJmlMasalah{
+    /* background-color: green; */
+    width: 200px;
+}
+
+.lingkaranToday {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background-color: #eaeaea; */
+    background: linear-gradient(-45deg,#00b7ff,#007eaf);
+    box-shadow: 0px 0px 20px 1px #008cff;
+    
+}
+.lingkaranToday::after{
+    content: "";
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.angka {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+}
