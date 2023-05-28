@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 650px;
-    background-color: #e4e4e4;
+    background-color: #f6fcff;
   }
   
 
@@ -18,7 +18,8 @@ body {
 }
 
 .sidebar {
-    z-index: 1;
+    /* z-index: 1; */
+    /* background-color: #191919; */
     background-color: #ffffff;
     width: 250px;
     height: 100%;
@@ -29,14 +30,15 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
+    align-items: flex-start;
     transition: all 300ms ease;
-    overflow: hidden;
+    overflow:hidden;
 }
 .adminPP{
     margin-top: 20px;
     padding-left: 10px;
     border-radius: 8px;
-    border-bottom: 2px solid #00b7ff;
+    /* border-bottom: 2px solid #00b7ff; */
     /* background-color: chartreuse; */
     width: 200px;
     height: 100px;
@@ -63,12 +65,41 @@ body {
 }
 .ulSidebarMenu{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 5px 0px;
     /* background-color: red; */
     padding-left: 0px;
 }
+.ulSidebarMenu i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+.icon-keluar{
+    margin-right: -100px;
+}
+.icon-keluar i{
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 0;
+}
+.icon-keluar a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+    color: #191919aa;
+    padding: 0px 10px;
+    border-radius: 7px;
+    transition: all 300ms ease;
+}
+.icon-keluar a:hover{
+    transition: all 300ms ease;
+    color: #ff0040;
+    margin-left: -10px;
+}
 .ulSidebarMenu a{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     width: 200px;
     /* background-color: aquamarine; */
@@ -83,11 +114,14 @@ body {
     color: #191919;
     margin-left: 10px;
 }
-.ulSidebarMenu a:focus{
-    background-color: #13537eaa;
+.active:active{
+    color: turquoise;
+}
+.active:focus{
+    background-color: #d1ecff;
     transition: background-color 0.1s;
     margin-left: 10px;
-    color: white;
+    color: #00b7ff;
     box-shadow: 2px 2px 5px 0px rgb(220, 220, 220);
     transition: all 300ms ease;
 }
@@ -106,8 +140,7 @@ body {
     height: 60%;
     display: flex;
     flex-direction: row;
-    gap: 1em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -142,7 +175,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 96%;
+    width: 95%;
     height: 100%;
     background-color: white;
     box-shadow: 1px 0px 10px 1px #19191920;
@@ -153,5 +186,4 @@ body {
     width: 115px;
     height: 100%;
     /* background-color: red; */
-
 }

@@ -1,13 +1,54 @@
 
+#selesai{
+    color: #00b7ff;
+    font-weight: 600;
+    font-size: large;
+}
+#belum{
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+}
+
 
 .card1{
     font-family: 'nunito';
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
 }
 
+.titleItem1{
+    /* background-color: #006188; */
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.titleItem1 h2{
+    margin: 0px;
+    margin-left: -20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #191919;
+}
+.titleItem1 h2 i{
+    margin: 0 auto;
+    font-size: 30px;
+    color: #00b7ff;
+    margin-right: 10px;
+}
+#tglToday{
+    margin: 0px;
+    font-size: 16px;
+    color: #191919;
+}
 
+.card1-item2{
+    display: flex;
+    flex-direction: row;
+}
 .jmlMasalah{
     /* background-color: red; */
     width: 250px;
@@ -28,35 +69,25 @@
 .ketJmlMasalah{
     /* background-color: green; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 200px;
     padding: 20px;
     flex-wrap: wrap;
     overflow: hidden;
 }
-.ketJmlMasalah h2{
-    margin: 0px;
-    font-size: 25px;
-    color: #007eaf;
-}
-#tglToday{
-    margin: 0px;
-    font-size: 18px;
-    color: #191919;
-}
 .ketJmlMasalah p{
-    margin: 0px;
-    height: 1px;
+    font-weight: 600;
+    color: #1919199f;
 }
 .ketJmlMasalah button{
-    background-color: #007eaf;
+    background-color: #00b7ff;
     color: white;
     border: none;
     width: 200px;
     height: 40px;
     font-size: 18px;
     border-radius: 5px;
-    align-self: flex-end;
     transition: all 300ms ease;
 }
 .ketJmlMasalah button:hover{
@@ -69,6 +100,7 @@
     background-color: #0092cc;
     box-shadow: 0px 0px 10px 1px #008cffa0;
     transition: all 300ms ease;
+    outline: 1px solid #00848d;
 }
 
 .lingkaranToday {
@@ -76,19 +108,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     /* background-color: #eaeaea; */
-    background: linear-gradient(-45deg,#00b7ff,#007eaf);
+    background: linear-gradient(-45deg,#00b7ff,orange);
     box-shadow: 0px 0px 10px 1px #008cffa0;
     
 }
 .lingkaranToday::after{
     content: "";
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
